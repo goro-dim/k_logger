@@ -35,6 +35,23 @@ cd GoblinLogger</code></pre>
             <pre><code>python k_logger.py</code></pre>
         </li>
     </ol>
+<h2>Generating a Google App Password</h2>
+<p>For security reasons, you cannot use your Google account password directly in applications like this keylogger. Instead, you need to generate an App Password. Follow these steps to create one:</p>
+<ol>
+    <li>Visit your Google Account at <a href="https://myaccount.google.com" target="_blank">https://myaccount.google.com</a>.</li>
+    <li>Navigate to the "Security" section.</li>
+    <li>Under the "Signing in to Google" subsection:
+        <ul>
+            <li>Ensure that 2-Step Verification is enabled.</li>
+            <li>Click on "App Passwords."</li>
+        </ul>
+    </li>
+    <li>Re-enter your Google account password if prompted.</li>
+    <li>Under the "Select app" dropdown, choose "Other (Custom name)" and enter a name for your application (e.g., "GoblinLogger").</li>
+    <li>Click "Generate" to create a new App Password.</li>
+    <li>Copy the generated App Password and paste it into the appropriate field in your code where the password is required.</li>
+</ol>
+<p>This App Password will allow your application to authenticate with your Google account securely.</p>
 
   <h2>File Descriptions</h2>
     <h3>GoblinLogger.py</h3>
