@@ -18,8 +18,8 @@
   <h2>Installation</h2>
     <ol>
         <li>Clone the repository:
-            <pre><code>git clone https://github.com/yourusername/GoblinLogger.git
-cd GoblinLogger</code></pre>
+            <pre><code>git clone https://github.com/goro-dim/k_logger
+cd k_logger</code></pre>
         </li>
         <li>Install the required Python libraries:
             <pre><code>pip install pynput</code></pre>
